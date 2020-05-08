@@ -8,8 +8,11 @@
 [issues-url]: https://github.com/Zypherone/note-taker/issues
 [license-shield]: https://img.shields.io/github/license/Zypherone/note-taker.svg?style=flat-square
 [license-url]: https://github.com/Zypherone/note-taker/blob/master/LICENSE.txt
+[build-style-shild]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
+[build-style-url]: https://github.com/feross/standard
 
-[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+
+[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![BuildStyle][build-style-shield]]build-style-url]
 
 # Note Taker
 An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
@@ -17,6 +20,7 @@ An application that can be used to write, save, and delete notes. This applicati
 #### Table of Contents
 - [Screenshots](#Screenshots)
 - [Built With](#Built_With)
+- [Code Style](#Code_Style)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Demo](#Demo)
@@ -33,6 +37,9 @@ An application that can be used to write, save, and delete notes. This applicati
 - [uuidv4](https://www.npmjs.com/package/uuidv4)
 
 ---
+
+## Code style
+[![BuildStyle][build-style-shield]]build-style-url] - https://github.com/standard/standard
 
 ## Installation
 Download (and unpack) or clone the repo, then using a CLI run the following:
