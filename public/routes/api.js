@@ -7,9 +7,7 @@
 const fs = require("fs");
 const { uuid } = require('uuidv4');
 const path = require('path');
-
-
-
+const db = path.join(__dirname + '/../db/db.json');
 
 // ===============================================================================
 // ROUTING
@@ -17,64 +15,44 @@ const path = require('path');
 
 module.exports = function(app) {
 
-  /*fetch = (res, type = '') => {
-    if (type === 'delete') {
-      
-      readFileAsync(path.join(__dirname + '/../db/db.json'))
-      .then(r => {
-        //console.log(JSON.parse(data, 4));
-        return JSON.parse(r, 4);
-      })
-      .catch(e => {
-        console.log(e)
-      }) 
-    }
-    else {
-      fs.readFile(path.join(__dirname + '/../db/db.json'), function(err, data) {
-        return res.json(JSON.parse(data, 4));
-      });
-    }
-  }
-
-
-*/
-
   let notes = [];
 
-  fs.readFile(path.join(__dirname + '/../db/db.json'), function(err, data) {
+  const writeToDb = () => {
+    fs.writeFile(db, JSON.stringify(notes, 4), err => {
+      if (err) console.log(err);
+    });
+  }
+
+  fs.readFile(db, (err, data) => {
     notes = JSON.parse(data, 4);
   });
-  //let notes = fetch();
-
-  app.get('/api/notes', async function(req, res) {
+  
+  app.get('/api/notes', (req, res) => {
     res.json(notes);
   });
 
-  app.post('/api/notes', function(req, res) {
-
-    //const { title, text } = req.post;
-
-    //console.log(req.params);
+  app.post('/api/notes', (req, res) => {
 
     let newNote = req.body;
         newNote.id = uuid();
 
-    notes.unshift(newNote)
+    notes.unshift(newNote);
+
+    writeToDb();
 
     res.json(notes);
 
   });
 
-  app.delete('/api/notes/:id', function(req, res) {
+  app.delete('/api/notes/:id', (req, res) => {
 
     const id = req.params.id;
     const deletedData = notes.filter(v => v.id === id)[0];
     notes = notes.filter(v => v.id !== id);
+
+    writeToDb();
   
     res.json([{ 'delete': deletedData }]);
-
-    
-
 
   });
 
