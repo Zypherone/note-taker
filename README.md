@@ -39,7 +39,7 @@ Then use your preferred browser to access the Note Taker App.
 
 ## Demo
 
-Click https://www.npmjs.com/package/uuidv4 to visit a live demo.
+Click https://nameless-coast-02770.herokuapp.com/ to visit a live demo.
 
 ## License
 | Details | Author |
