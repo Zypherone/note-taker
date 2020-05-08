@@ -6,12 +6,12 @@
 [stars-url]: https://github.com/Zypherone/note-taker/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Zypherone/note-taker.svg?style=flat-square
 [issues-url]: https://github.com/Zypherone/note-taker/issues
-[build-style-shild]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
+[build-style-shield]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [build-style-url]: https://github.com/feross/standard
 [license-shield]: https://img.shields.io/github/license/Zypherone/note-taker.svg?style=flat-square
 [license-url]: https://github.com/Zypherone/note-taker/blob/master/LICENSE.txt
 
-[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![BuildStyle][build-style-shield]]build-style-url]
+[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![JS Standard][build-style-shield]]build-style-url] [![MIT License][license-shield]][license-url]
 
 # Note Taker
 An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
