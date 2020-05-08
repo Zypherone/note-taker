@@ -9,7 +9,7 @@
 [build-style-shield]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [build-style-url]: https://github.com/feross/standard
 [license-shield]: https://img.shields.io/github/license/Zypherone/note-taker.svg?style=flat-square
-[license-url]: https://github.com/Zypherone/note-taker/blob/master/LICENSE.txt
+[license-url]: http://choosealicense.com/licenses/mit/
 
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![JS Standard][build-style-shield]][build-style-url] [![MIT License][license-shield]][license-url]
 
@@ -38,7 +38,7 @@ An application that can be used to write, save, and delete notes. This applicati
 ---
 
 ## Code style
-[![BuildStyle][build-style-shield]]build-style-url] - https://github.com/standard/standard
+[![JS Standard][build-style-shield]][build-style-url] - https://github.com/standard/standard
 
 ## Installation
 Download (and unpack) or clone the repo, then using a CLI run the following:
