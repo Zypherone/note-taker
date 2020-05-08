@@ -35,10 +35,10 @@ An application that can be used to write, save, and delete notes. This applicati
 - [Express.js](https://expressjs.com/)
 - [uuidv4](https://www.npmjs.com/package/uuidv4)
 
----
-
 ## Code style
 [![JS Standard][build-style-shield]][build-style-url] - https://github.com/standard/standard
+
+---
 
 ## Installation
 Download (and unpack) or clone the repo, then using a CLI run the following:
