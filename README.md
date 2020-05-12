@@ -28,7 +28,9 @@ An application that can be used to write, save, and delete notes. This applicati
 ---
 
 ## Screenshots
-<img src="example.gif" width="250">
+|Screenshot One|Screenshot Two|Screenshot Three|
+|----|----|----|
+|<img src="screenshots/screenshot1.gif">|<img src="screenshots/screenshot2.gif">|<img src="screenshots/screenshot3.gif">|
 
 ## Built with
 - [Node.js](https://nodejs.org/en/)
