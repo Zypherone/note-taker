@@ -30,7 +30,7 @@ An application that can be used to write, save, and delete notes. This applicati
 ## Screenshots
 |Screenshot One|Screenshot Two|Screenshot Three|
 |----|----|----|
-|<img src="screenshots/screenshot1.gif">|<img src="screenshots/screenshot2.gif">|<img src="screenshots/screenshot3.gif">|
+|<img src="screenshots/screenshot1.jpg">|<img src="screenshots/screenshot2.jpg">|<img src="screenshots/screenshot3.jpg">|
 
 ## Built with
 - [Node.js](https://nodejs.org/en/)
